@@ -1,11 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Landing from "./Landing";
-import Navig from "./Navig";
+import Navbar from "./Navbar";
+import Bulb from "./Bulb";
+import Machine from "./Machine";
+import Second from "./Second";
 function App() {
   return (
     <div className="App">
-      {/* <Navig /> */}
       <Landing />
     </div>
   );

@@ -7,7 +7,7 @@ function Navig() {
       expand="lg"
       variant="dark"
       bg="dark"
-      // style={{ background: "transparent" }}
+      style={{ position: "fixed" }}
       // style={{ background: "rgba(0,0,0,0.58)" }}
     >
       <Container>
