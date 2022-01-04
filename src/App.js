@@ -1,14 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Landing from "./Landing";
-import Navbar from "./Navbar";
-import Bulb from "./Bulb";
-import Machine from "./Machine";
-import Second from "./Second";
+import LandPage from "./LandPage";
 function App() {
   return (
     <div className="App">
-      <Landing />
+      {/* <Landing /> */}
+      <LandPage />
     </div>
   );
 }
