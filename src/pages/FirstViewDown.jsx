@@ -5,7 +5,7 @@ import meat from "../img/7.jpg";
 import trop from "../img/8.jpg";
 import pot from "../img/6.jpg";
 import top from "../img/9.jpg";
-
+import SecondView from "./SecondView";
 export default function FirstViewDown() {
   // const parallax = useRef<IParallax>(null!)
   return (
@@ -32,8 +32,11 @@ export default function FirstViewDown() {
                 </p>
                 <p class="card-text">
                   <small class="text-muted">
-                    <i class="fas fa-map-marker-alt"></i>Location Kuchina's
-                    avenue
+                    <i
+                      class="fas fa-map-marker-alt"
+                      style={{ marginRight: "6px" }}
+                    ></i>
+                    Location Kuchina's avenue
                   </small>
                 </p>
               </div>
@@ -57,8 +60,11 @@ export default function FirstViewDown() {
                 </p>
                 <p class="card-text">
                   <small class="text-muted">
-                    <i class="fas fa-map-marker-alt"></i>Location 48 Spices
-                    avenue
+                    <i
+                      class="fas fa-map-marker-alt"
+                      style={{ marginRight: "6px" }}
+                    ></i>
+                    Location 48 Spices avenue
                   </small>
                 </p>
               </div>
@@ -81,7 +87,11 @@ export default function FirstViewDown() {
                 </p>
                 <p class="card-text">
                   <small class="text-muted">
-                    <i class="fas fa-map-marker-alt"></i>Location Dream's Lounge
+                    <i
+                      class="fas fa-map-marker-alt"
+                      style={{ marginRight: "6px" }}
+                    ></i>
+                    Location Dream's Lounge
                   </small>
                 </p>
               </div>
@@ -89,24 +99,20 @@ export default function FirstViewDown() {
           </div>
         </Fade>
       </div>
-      <div className="line-3 px-4">
-        <div className="img-side">
-          <div className="center-img">
-            <img src={meat} alt="" className="picture" />
-          </div>
-        </div>
-        <div className="txt-side">
-          <p className="m-0 p-0">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a
-            rhoncus lorem. Mauris vel ipsum nec turpis malesuada posuere. Donec
-            placerat, nisi at malesuada rutrum, velit felis luctus mauris, vitae
-            mollis justo urna ac augue. Aenean mauris est, fringilla non eros
-            ac, posuere auctor ligula. Pellentesque quis fringilla sapien
-          </p>
-        </div>
+      <div class="custom-shape-divider-top-1641838575">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            class="shape-fill"
+          ></path>
+        </svg>
       </div>
+      <SecondView />
     </div>
   );
 }
-
-// export default FirstViewDown;

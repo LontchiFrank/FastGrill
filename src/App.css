@@ -12,7 +12,7 @@
   /* overflow-x: hidden; */
 }
 .overall {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-color: #a31222;
 }
@@ -219,18 +219,18 @@
   border: 1px solid;
 }
 .number {
-  width: 100vw;
-  height: 50vh;
+  width: 100%;
+  height: 50%;
   background-color: teal;
 }
 .first {
-  width: 100vw;
+  width: 100%;
   height: 50vh;
   background-color: tomato;
 }
 .main-first {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   position: absolute;
   /* overflow-x: hidden; */
 }
@@ -317,4 +317,70 @@
 }
 .on {
   color: #ff3c53;
+}
+.custom-shape-divider-top-1641838575 {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: 1;
+}
+
+.custom-shape-divider-top-1641838575 svg {
+  position: relative;
+  display: block;
+  width: calc(165% + 1.3px);
+  height: 105px;
+}
+
+.custom-shape-divider-top-1641838575 .shape-fill {
+  fill: #ffffff;
+}
+.pic {
+  width: 45%;
+  height: 100%;
+  background-image: url(./img/7.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pic:hover {
+  cursor: pointer;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(./img/7.jpg);
+}
+
+.first-opt {
+  text-align: center;
+}
+.title-txt {
+  font-family: Royalacid;
+  font-size: 3em;
+}
+.second-opt {
+  width: 100%;
+  height: 10%;
+  font-family: "Poppins", "sans-serif";
+}
+.m {
+  font-weight: 500 !important;
+}
+.off-1 {
+  text-decoration: line-through;
+  color: #ffa4a4;
+  font-size: 18px;
+}
+.on-1 {
+  font-family: Royalacid;
+  font-size: 3em;
+  color: #ff3c53;
+}
+.rating i {
+  color: rgb(255, 166, 0);
 }
