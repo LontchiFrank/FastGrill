@@ -18,40 +18,42 @@ function Landing() {
       <div className="all-round">
         <div className="round-div ">
           <div className="small-round-div">
-            <div className="round-div">
-              <div className="small1">
-                <div className="round-div ">
-                  <div className="small2">
-                    <div className="pans">
-                      <div className="pan">
-                        <img
-                          src={food}
-                          alt=""
-                          style={{ width: "100%", height: "100%" }}
-                          className="spining"
-                        />
-                      </div>
-                      <div className="pan2">
-                        <img
-                          src={food2}
-                          alt=""
-                          style={{ width: "100%", height: "100%" }}
-                          className="spining1"
-                        />
-                      </div>
-                      <div className="pan3">
-                        <img
-                          src={food3}
-                          alt=""
-                          style={{ width: "100%", height: "100%" }}
-                          className="spining2"
-                        />
+            <Fade top>
+              <div className="round-div">
+                <div className="small1">
+                  <div className="round-div ">
+                    <div className="small2">
+                      <div className="pans">
+                        <div className="pan">
+                          <img
+                            src={food}
+                            alt=""
+                            style={{ width: "100%", height: "100%" }}
+                            className="spining"
+                          />
+                        </div>
+                        <div className="pan2">
+                          <img
+                            src={food2}
+                            alt=""
+                            style={{ width: "100%", height: "100%" }}
+                            className="spining1"
+                          />
+                        </div>
+                        <div className="pan3">
+                          <img
+                            src={food3}
+                            alt=""
+                            style={{ width: "100%", height: "100%" }}
+                            className="spining2"
+                          />
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
+            </Fade>
           </div>
           <Fade right>
             <div className="black-box">

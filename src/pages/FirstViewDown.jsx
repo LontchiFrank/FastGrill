@@ -6,7 +6,7 @@ import trop from "../img/8.jpg";
 import pot from "../img/6.jpg";
 import top from "../img/9.jpg";
 import SecondView from "./SecondView";
-export default function FirstViewDown() {
+function FirstViewDown() {
   // const parallax = useRef<IParallax>(null!)
   return (
     <div className="main-first">
@@ -116,3 +116,5 @@ export default function FirstViewDown() {
     </div>
   );
 }
+
+export default FirstViewDown;

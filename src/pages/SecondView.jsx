@@ -1,6 +1,6 @@
 import React from "react";
 import image2 from "../img/10.jpg";
-import image3 from "../img/11.jpg";
+import image3 from "../img/12.png";
 import { Parallax } from "react-parallax";
 
 const image1 =
@@ -37,16 +37,7 @@ function SecondView() {
                   width: "45%",
                   height: "100%",
                 }}
-              >
-                {/* <img
-                  src={image3}
-                  alt=""
-                  style={{
-                    width: "100%",
-                    height: "100%",
-                  }}
-                /> */}
-              </div>
+              ></div>
               <div
                 className="pic-txt"
                 style={{
@@ -55,7 +46,7 @@ function SecondView() {
                 }}
               >
                 <div className="first-opt">
-                  <h2 className="title-txt pt-3">SPECIAL OFFER</h2>
+                  <h2 className="title-txt pt-4">SPECIAL OFFER</h2>
                 </div>
                 <div className="second-opt px-4">
                   <p class="card-text">
@@ -63,21 +54,54 @@ function SecondView() {
                     lead-in to additional content. This content is a little bit
                     longer. Nullam egestas aliquam est, vel elementum orci
                     accumsan at. Suspendisse facilisis molestie ultrices Ut
-                    ultrices neque facilisis hendrerit rhoncus.
+                    ultrices neque facilisis hendrerit rhoncus.This content is a
+                    little bit longer.
                   </p>
                   <div className="d-flex">
                     <p className="m">Price: </p>
                     <h4 className="off-1 ">6000frs</h4>
                   </div>
                   <h3 className="on-1">5000frs</h3>
-                  <div className="rating d-flex">
-                    <p style={{ marginRight: "6px" }}>Ratings:</p>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
+                  <div className="colect d-flex">
+                    <div className="rating d-flex">
+                      <p style={{ marginRight: "6px" }}>Ratings:</p>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div
+                      className="banner"
+                      style={{
+                        position: "absolute",
+                        top: "40%",
+                        left: "65%",
+
+                        width: "50%",
+                        height: "60%",
+                      }}
+                    >
+                      <img
+                        src={image3}
+                        alt=""
+                        style={{
+                          zIndex: "1",
+                          width: "70%",
+                          height: "90%",
+                        }}
+                      />
+                    </div>
                   </div>
+                  <p class="card-text-1">
+                    <small class="text-muted">
+                      <i
+                        class="fas fa-map-marker-alt"
+                        style={{ marginRight: "6px" }}
+                      ></i>
+                      Location 48 Spices at Sampit
+                    </small>
+                  </p>
                 </div>
               </div>
             </div>
