@@ -99,7 +99,7 @@ function SecondView() {
                         class="fas fa-map-marker-alt"
                         style={{ marginRight: "6px" }}
                       ></i>
-                      Location 48 Spices at Sampit
+                      Location 48 Spices at Sampit, Buea
                     </small>
                   </p>
                 </div>

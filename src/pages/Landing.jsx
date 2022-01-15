@@ -5,7 +5,6 @@ import food from "../img/6.png";
 import food2 from "../img/soya.png";
 import food3 from "../img/meat.png";
 import Navig from "./Navig";
-import FirstViewDown from "./FirstViewDown";
 
 function Landing() {
   // useEffect(() => {}, [input]);
