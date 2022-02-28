@@ -19,7 +19,7 @@ function SecondView() {
     <div style={{ width: "100%", height: "100vh" }}>
       <Parallax bgImage={image2} blur={{ min: -2, max: 9 }}>
         <div
-          style={{ height: 600, backgroundPosition: "center", width: "100%" }}
+          style={{ height: 750, backgroundPosition: "center", width: "100%" }}
         >
           <div style={inlineStyle}>
             <div
