@@ -15,7 +15,7 @@ function FirstViewDown() {
           <h3>Our Qualities</h3>
         </Fade>
       </div>
-      <div className="line-2 px-4">
+      <div className="line-2 px-4 mb-5">
         <Fade bottom>
           <div className="card-1">
             <div class="card mb-3">

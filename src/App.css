@@ -124,7 +124,6 @@
   top: 10%;
   right: 15%;
   z-index: 3;
- 
 }
 .grill-txt {
   width: 300px;
@@ -142,7 +141,7 @@
 }
 .pan3 {
   width: 420px;
-  height:380px;
+  height: 380px;
   /* background-image: url(./img/mbap.png); */
   position: absolute;
   /* z-index: 6; */
@@ -158,7 +157,7 @@
 .pan img {
   position: absolute;
   z-index: 2;
-  
+
   filter: drop-shadow(12px 12px 25px rgba(0, 0, 0, 0.808));
 }
 .pan2 img {
@@ -187,10 +186,10 @@
   font-family: Royalacid;
   font-size: 4.2em;
 }
-.title-head{
-    color: white;
-    font-family: Royalacid;
-    font-size: 4.2em;
+.title-head {
+  color: white;
+  font-family: Royalacid;
+  font-size: 4.2em;
 }
 
 .header {
@@ -238,8 +237,13 @@
 }
 .main-first {
   width: 100%;
-  height: 100%;
+  /* height: 100; */
+  display: flex;
   position: absolute;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* overflow-x: hidden;
   /* overflow-x: hidden; */
 }
 .line-1 {

@@ -16,7 +16,6 @@ function Landing() {
       </div>
       <div className="all-round">
         <div className="round-div ">
-        
           <div className="small-round-div">
             <Fade top>
               <div className="round-div">
@@ -114,13 +113,19 @@ function Landing() {
             ></path>
           </svg>
         </div>
-        <div className="catch-hold d-flex justify-content-center align-items-center"style={{width:"100%"}}>
-        <div className="catch ">
-
-<h1 className="pt-5 text-center  title-head" style={{width:"80%"}}>Hickory smoked barbecue is the best!</h1>
-</div>
+        <div
+          className="catch-hold d-flex justify-content-center align-items-center"
+          style={{ width: "100%" }}
+        >
+          <div className="catch d-flex justify-content-center align-items-center">
+            <h1
+              className="pt-5 text-center  title-head"
+              style={{ width: "80%" }}
+            >
+              Hickory smoked barbecue is the best!
+            </h1>
+          </div>
         </div>
-        
       </div>
     </div>
   );
