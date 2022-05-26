@@ -4,12 +4,14 @@
   src: url("./fonts/Royalacid_o.ttf");
   /* src: url("./fonts/BubbleShine.otf"); */
 }
+body {
+  overflow-x: hidden;
+}
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* overflow-x: hidden; */
 }
 .overall {
   width: 100%;
@@ -133,10 +135,10 @@
 }
 .pan2 {
   width: 550px;
-  height: 418px;
-  position: relative;
-  z-index: 2;
-  top: -40%;
+  height: 400px;
+  position: absolute;
+  /* z-index: 2; */
+  top: -25%;
   left: 60%;
 }
 .pan3 {
@@ -161,8 +163,8 @@
   filter: drop-shadow(12px 12px 25px rgba(0, 0, 0, 0.808));
 }
 .pan2 img {
-  position: absolute;
-  z-index: 2;
+  /* position: absolute;
+  z-index: 2; */
   filter: drop-shadow(12px 12px 25px rgba(0, 0, 0, 0.808));
 }
 .pan3 img {
@@ -446,13 +448,81 @@
   }
   .round-div {
     width: 100%;
-    /* height: 100%; */
     display: flex;
     flex-direction: column;
   }
-  /* .black-box {
-    top: 0;
+  .pan2 {
+    width: 40%;
+
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+}
+/* Media Querries for Small Screens */
+@media (min-width: 532.98px) and (max-width: 767.98px) {
+  .all-round {
+    height: 90%;
+  }
+  .pan {
+    position: fixed;
+  }
+  .small1 {
+    width: 100%;
+    height: 95%;
+  }
+  .round-div {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .small-round-div {
+    width: 100%;
+    height: 60%;
+  }
+  .pan2 {
+    width: 40%;
+    width: 350px;
+    height: 300px;
+    top: 15%;
     left: 40%;
-    position: relative;
-  } */
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  .pan {
+    width: 350px;
+    height: 280px;
+    position: absolute;
+    top: 29%;
+    right: 15%;
+    z-index: 3;
+  }
+  .pan3 {
+    width: 290px;
+    height: 250px;
+    /* background-image: url(./img/mbap.png); */
+    position: absolute;
+    /* z-index: 6; */
+    top: 12%;
+    left: -5%;
+    -ms-transform: rotate(125deg); /* IE 9 */
+    transform: rotate(125deg);
+  }
+  .black-box1 {
+    display: none;
+  }
+  .sick {
+    font-size: 28px;
+  }
+  .line-2 {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .card-1 {
+    width: 90%;
+  }
 }

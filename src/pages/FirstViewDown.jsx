@@ -73,7 +73,7 @@ function FirstViewDown() {
         </Flip>
         <Fade top>
           <div className="card-1">
-            <div class="card mb-3">
+            <div class="card mb-3 ">
               <img src={top} class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title ">Grilled Cow meat</h5>

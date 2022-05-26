@@ -35,7 +35,7 @@ function Landing() {
                           <img
                             src={food2}
                             alt=""
-                            style={{ width: "100%", height: "100%" }}
+                            style={{ height: "100%" }}
                             className="spining1"
                           />
                         </div>
@@ -145,7 +145,7 @@ function Landing() {
         >
           <div className="catch d-flex justify-content-center align-items-center">
             <h1
-              className="pt-5 text-center  title-head"
+              className=" sick pt-5 text-center  title-head"
               style={{ width: "80%" }}
             >
               Hickory smoked barbecue is the best!

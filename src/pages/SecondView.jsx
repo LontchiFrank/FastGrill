@@ -7,11 +7,9 @@ const image1 =
   "https://www.pexels.com/photo/close-up-shot-of-grilled-food-9200385/";
 
 const inlineStyle = {
-  // background: "#fff",
   left: "50%",
   top: "55%",
   position: "absolute",
-  // padding: "20px",
   transform: "translate(-50%, -50%)",
 };
 function SecondView() {
