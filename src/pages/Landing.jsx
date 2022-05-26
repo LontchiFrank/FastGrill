@@ -55,35 +55,61 @@ function Landing() {
             </Fade>
           </div>
           <Fade right>
-            <div className="black-box">
-              <div className="header">
-                <h2 className="title"> FAST GRILL </h2>
-              </div>
-              <div className="menu">
-                <h3 className="menu-h">Menu</h3>
-                <div className="container">
-                  <div className="list p-3">
-                    <i class="fas fa-hamburger"></i>
-                    <h6 className="item">
-                      Beaf Steak with fries and Tomatoe Sauce{" "}
-                    </h6>
+            <div
+              className="box-hold"
+              style={{
+                width: "90%",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <div
+                style={{
+                  backgroundColor: "orange",
+                  width: "50%",
+                }}
+              >
+                <div
+                  className="black-box1"
+                  style={{
+                    backgroundColor: "orange",
+                    width: "50%",
+                  }}
+                ></div>
+                <div className="black-box2">
+                  <div className="header">
+                    <h2 className="title"> FAST GRILL </h2>
                   </div>
-                  <div className="list p-3">
-                    <i class="fas fa-hamburger"></i>
-                    <h6 className="item">
-                      Season Grilled Chicken with fried plantain and Tomatoe
-                      Sauce
-                    </h6>
-                  </div>
-                  <div className="list p-3">
-                    <i class="fas fa-hamburger"></i>
-                    <h6 className="item">Grilled Goat Meat with pepper Soup</h6>
-                  </div>
-                  <div className="list p-3">
-                    <i class="fas fa-hamburger"></i>
-                    <h6 className="item">
-                      Pork Meat and grilled plantains with Pepper Sauce
-                    </h6>
+                  <div className="menu">
+                    <h3 className="menu-h">Menu</h3>
+                    <div className="container">
+                      <div className="list p-3">
+                        <i class="fas fa-hamburger"></i>
+                        <h6 className="item">
+                          Beaf Steak with fries and Tomatoe Sauce{" "}
+                        </h6>
+                      </div>
+                      <div className="list p-3">
+                        <i class="fas fa-hamburger"></i>
+                        <h6 className="item">
+                          Season Grilled Chicken with fried plantain and Tomatoe
+                          Sauce
+                        </h6>
+                      </div>
+                      <div className="list p-3">
+                        <i class="fas fa-hamburger"></i>
+                        <h6 className="item">
+                          Grilled Goat Meat with pepper Soup
+                        </h6>
+                      </div>
+                      <div className="list p-3">
+                        <i class="fas fa-hamburger"></i>
+                        <h6 className="item">
+                          Pork Meat and grilled plantains with Pepper Sauce
+                        </h6>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>

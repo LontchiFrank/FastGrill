@@ -78,7 +78,7 @@ function SecondView() {
                         top: "40%",
                         left: "65%",
 
-                        width: "50%",
+                        // width: "50%",
                         height: "60%",
                       }}
                     >
@@ -87,7 +87,7 @@ function SecondView() {
                         alt=""
                         style={{
                           zIndex: "1",
-                          width: "70%",
+                          width: "100%",
                           height: "90%",
                         }}
                       />

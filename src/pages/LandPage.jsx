@@ -5,7 +5,7 @@ import SecondView from "./SecondView";
 
 function LandPage() {
   return (
-    <div>
+    <div style={{ width: "100vw" }}>
       <Landing />
       <FirstViewDown />
     </div>
