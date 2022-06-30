@@ -459,7 +459,7 @@ body {
   }
 }
 /* Media Querries for Small Screens */
-@media (min-width: 532.98px) and (max-width: 767.98px) {
+@media (min-width: 332.98px) and (max-width: 767.98px) {
   .all-round {
     height: 90%;
   }
@@ -523,6 +523,12 @@ body {
     flex-direction: column;
   }
   .card-1 {
+    width: 90%;
+  }
+  .holdspecial {
+    width: 100%;
+  }
+  .special-card {
     width: 90%;
   }
 }
