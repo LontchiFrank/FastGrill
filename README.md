@@ -1,7 +1,9 @@
 # FastGrill
+[![forthebadge made-with-react](https://logojinni.com/react-logo-337)](https://go.dev/)
 [![Generic badge](https://img.shields.io/badge/website-up-orange.svg)](https://shields.io/)
 [![Generic badge](https://img.shields.io/badge/contributors-0-red.svg)](https://shields.io/)
 [![Generic badge](https://img.shields.io/badge/stars-1-<COLOR>.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/issues-0open-800080.svg)](https://shields.io/)
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
 
 Web application that shows the restaurants of grilled meat and display their variety of products and their prices.
