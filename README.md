@@ -1,23 +1,20 @@
-# Getting Started with Create React App
+# FastGrill
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Web application that shows the restaurants of grilled meat and display their variety of products and their prices.
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+This is an application which enables you to get or order for BBQ depending on any restaurant of your choice and shows you the different prices and location.
+For now FastGrill is an application with just a Landing page for now.
 
-### `npm start`
+### Technology Used
+React - Javascript library framework used for building Front end web applications.
+Bootstrap - CSS framework for easy styling of the web application
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+##  How to Install and Run the Project
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
