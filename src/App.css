@@ -1,8 +1,6 @@
 @font-face {
-  /* font-family: Balimoon; */
   font-family: Royalacid;
   src: url("./fonts/Royalacid_o.ttf");
-  /* src: url("./fonts/BubbleShine.otf"); */
 }
 body {
   overflow-x: hidden;
@@ -29,8 +27,6 @@ body {
   height: 100%;
 }
 .round-div {
-  /* display: flex; */
-  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
 }
 .small-round-div {
@@ -137,16 +133,13 @@ body {
   width: 550px;
   height: 400px;
   position: absolute;
-  /* z-index: 2; */
   top: -25%;
   left: 60%;
 }
 .pan3 {
   width: 420px;
   height: 380px;
-  /* background-image: url(./img/mbap.png); */
   position: absolute;
-  /* z-index: 6; */
   top: -12%;
   left: 5%;
   -ms-transform: rotate(125deg); /* IE 9 */
@@ -163,8 +156,6 @@ body {
   filter: drop-shadow(12px 12px 25px rgba(0, 0, 0, 0.808));
 }
 .pan2 img {
-  /* position: absolute;
-  z-index: 2; */
   filter: drop-shadow(12px 12px 25px rgba(0, 0, 0, 0.808));
 }
 .pan3 img {
@@ -182,18 +173,9 @@ body {
 }
 .black-box1 {
   width: 50%;
-  /* background-color: rgba(255, 250, 250, 0.973); */
-  /* background-color: rgba(46, 46, 46, 0.589);
-  height: 500px;
-  position: absolute;
-  top: 0%;
-  right: 0%;
-  z-index: 6;
-  border-radius: 5px; */
 }
 .black-box2 {
   width: 435px;
-  /* background-color: rgba(255, 250, 250, 0.973); */
   background-color: rgba(46, 46, 46, 0.589);
   height: 500px;
   position: absolute;
@@ -281,14 +263,11 @@ body {
   display: flex;
   justify-content: center;
   gap: 16px;
-  /* color: #ff6d6d; */
 }
 .card-1 {
   width: 25%;
   height: 70%;
   border-radius: 7px;
-  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
-    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
 }
 
 .line-3 {
@@ -423,7 +402,6 @@ body {
 @media (min-width: 1092.98px) and (max-width: 1656.98px) {
   .round-div {
     width: 100%;
-    /* height: 100%; */
     display: flex;
     flex-direction: column;
   }
@@ -500,9 +478,7 @@ body {
   .pan3 {
     width: 290px;
     height: 250px;
-    /* background-image: url(./img/mbap.png); */
     position: absolute;
-    /* z-index: 6; */
     top: 12%;
     left: -5%;
     -ms-transform: rotate(125deg); /* IE 9 */
