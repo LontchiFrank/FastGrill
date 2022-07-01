@@ -7,7 +7,6 @@ import pot from "../img/6.jpg";
 import top from "../img/9.jpg";
 import SecondView from "./SecondView";
 function FirstViewDown() {
-  // const parallax = useRef<IParallax>(null!)
   return (
     <div className="main-first">
       <div className="line-1">

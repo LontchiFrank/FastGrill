@@ -8,7 +8,6 @@ function Navig() {
       variant="dark"
       bg="dark"
       style={{ position: "fixed" }}
-      // style={{ background: "rgba(0,0,0,0.58)" }}
     >
       <Container>
         <Navbar.Brand href="#home">Fast Grill</Navbar.Brand>

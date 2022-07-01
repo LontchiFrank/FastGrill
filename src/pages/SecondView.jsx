@@ -76,8 +76,6 @@ function SecondView() {
                           position: "absolute",
                           top: "40%",
                           left: "65%",
-
-                          // width: "50%",
                           height: "60%",
                         }}
                       >
